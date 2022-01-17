@@ -1,0 +1,22 @@
+{
+  "name": "fullstack-recommendations",
+  "version": "1.0.0",
+  "description": "a simple site for full stack recommendations",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/talyaron/fullstack-recommendations.git"
+  },
+  "author": "Tal Yaron and studnts",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/talyaron/fullstack-recommendations/issues"
+  },
+  "homepage": "https://github.com/talyaron/fullstack-recommendations#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}
