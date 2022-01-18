@@ -1,4 +1,9 @@
+$primary:#0a102d;
+$onPrimary:white;
+$secondery:#35ffff;
+
+
 nav{
-    background-color: blue;
-    color: white;
+    background-color: $primary;
+    color: $onPrimary;
 }
