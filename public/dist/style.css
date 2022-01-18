@@ -1,0 +1,37 @@
+html,
+body {
+  margin: 0px;
+  font-family: "Poppins", sans-serif;
+  background-color: wheat;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  background-color: #0a102d;
+  color: white;
+}
+nav img {
+  height: 60px;
+  margin: 10px;
+}
+nav .nav {
+  display: flex;
+  align-items: center;
+}
+nav .nav__items {
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+nav .nav__items a {
+  height: 100%;
+  color: yellow;
+  display: flex;
+  align-items: center;
+  padding: 0px 20px;
+}
+nav .nav__items a:hover {
+  background-color: #35ffff;
+  color: #0a102d;
+}
