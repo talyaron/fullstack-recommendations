@@ -2,11 +2,24 @@ $primary:#0a102d;
 $onPrimary:white;
 $secondery:#35ffff;
 
+$colorH1:rgba(0, 0, 0, 0.787);
+$colorH:rgba(0, 0, 0, 0.678);
+$colorP:rgba(0, 0, 0, 0.55);
+
 html,
 body {
     margin: 0px;
     font-family: 'Poppins', sans-serif;
-    background-color: wheat;
+    
+}
+h1{
+    color: $colorH1;
+}
+h2, h3,h4,h5,h6{
+    color: $colorH;
+}
+p, div, span{
+    color: $colorP;
 }
 
 nav {
@@ -32,7 +45,7 @@ nav {
 
             a {
                 height: 100%;
-                color: yellow;
+                color: $onPrimary;
                 display: flex;
                 align-items: center;
                 padding: 0px 20px;

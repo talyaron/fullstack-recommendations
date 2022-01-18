@@ -2,7 +2,18 @@ html,
 body {
   margin: 0px;
   font-family: "Poppins", sans-serif;
-  background-color: wheat;
+}
+
+h1 {
+  color: rgba(0, 0, 0, 0.787);
+}
+
+h2, h3, h4, h5, h6 {
+  color: rgba(0, 0, 0, 0.678);
+}
+
+p, div, span {
+  color: rgba(0, 0, 0, 0.55);
 }
 
 nav {
@@ -26,7 +37,7 @@ nav .nav__items {
 }
 nav .nav__items a {
   height: 100%;
-  color: yellow;
+  color: white;
   display: flex;
   align-items: center;
   padding: 0px 20px;
