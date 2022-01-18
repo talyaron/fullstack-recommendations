@@ -2,8 +2,46 @@ $primary:#0a102d;
 $onPrimary:white;
 $secondery:#35ffff;
 
+html,
+body {
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
 
-nav{
+nav {
+    display: flex;
+    align-items: center;
     background-color: $primary;
     color: $onPrimary;
+
+    img {
+        height: 60px;
+        margin: 10px;
+    }
+
+    .nav {
+        display: flex;
+        align-items: center;
+
+        &__items {
+            height: 80px;
+            display: flex;
+            align-items: center;
+            
+
+            a {
+                height: 100%;
+                color: yellow;
+                display: flex;
+                align-items: center;
+                padding: 0px 20px;
+                &:hover{
+                    background-color: $secondery;
+                    color: $primary;
+                }
+            }
+           
+        }
+    }
+
 }
