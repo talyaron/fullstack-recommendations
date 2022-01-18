@@ -12,6 +12,9 @@ app.use(express.static(path.join(__dirname, '/public')));
 app.get('/', (req, res) => {
     res.render('home');
 });
+app.get('/html-css', (req, res) => {
+    res.render('pages/html-css/html-css-main');
+});
 
 app.get("/yell", (req, res) => {
 	res.render("yell", {title: "Yell",message: "hello world"});
