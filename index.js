@@ -15,6 +15,19 @@ app.get('/', (req, res) => {
 app.get('/html-css', (req, res) => {
     res.render('pages/html-css/html-css-main');
 });
+app.get('/html-css-start', (req, res) => {
+    res.render('pages/html-css/start');
+});
+app.get('/html-css-flex', (req, res) => {
+    res.render('pages/html-css/flex');
+});
+
+app.get('/js-start', (req, res) => {
+    res.render('pages/javascript/start');
+});
+app.get('/js-objects', (req, res) => {
+    res.render('pages/javascript/objects');
+});
 
 app.get("/yell", (req, res) => {
 	res.render("yell", {title: "Yell",message: "hello world"});

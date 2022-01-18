@@ -1,0 +1,54 @@
+nav {
+    display: flex;
+    align-items: center;
+    background-color: $primary;
+    color: $onPrimary;
+
+    img {
+        height: 60px;
+        margin: 10px;
+    }
+
+    .nav {
+        display: flex;
+        align-items: center;
+
+        &__items {
+            height: 80px;
+            display: flex;
+            align-items: center;
+
+
+
+
+
+
+        }
+    }
+
+    .subNav {
+        display: flex;
+        align-items: center;
+
+        &__items {
+            display: flex;
+            align-items: center;
+            height: 40px;
+        }
+    }
+
+    a {
+        height: 100%;
+        color: $onPrimary;
+        display: flex;
+        align-items: center;
+        padding: 0px 20px;
+        text-decoration: none;
+
+        &:hover {
+            background-color: $secondery;
+            color: $primary;
+        }
+    }
+
+}

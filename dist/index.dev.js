@@ -20,6 +20,18 @@ app.get('/', function (req, res) {
 app.get('/html-css', function (req, res) {
   res.render('pages/html-css/html-css-main');
 });
+app.get('/html-css-start', function (req, res) {
+  res.render('pages/html-css/start');
+});
+app.get('/html-css-flex', function (req, res) {
+  res.render('pages/html-css/flex');
+});
+app.get('/js-start', function (req, res) {
+  res.render('pages/javascript/start');
+});
+app.get('/js-objects', function (req, res) {
+  res.render('pages/javascript/objects');
+});
 app.get("/yell", function (req, res) {
   res.render("yell", {
     title: "Yell",
