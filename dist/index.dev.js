@@ -32,11 +32,8 @@ app.get('/js-start', function (req, res) {
 app.get('/js-objects', function (req, res) {
   res.render('pages/javascript/objects');
 });
-app.get("/yell", function (req, res) {
-  res.render("yell", {
-    title: "Yell",
-    message: "hello world"
-  });
+app.get('/job-problem', function (req, res) {
+  res.render('pages/job/theProblem');
 });
 app.listen(port, function () {
   console.log('app listen on port:', port);

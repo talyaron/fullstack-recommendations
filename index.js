@@ -29,8 +29,8 @@ app.get('/js-objects', (req, res) => {
     res.render('pages/javascript/objects');
 });
 
-app.get("/yell", (req, res) => {
-	res.render("yell", {title: "Yell",message: "hello world"});
+app.get('/job-problem', (req, res) => {
+    res.render('pages/job/theProblem');
 });
 
 app.listen(port, ()=>{

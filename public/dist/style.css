@@ -43,6 +43,17 @@ nav a:hover {
   margin: auto;
   max-width: 75ch;
 }
+.wrapper a {
+  text-decoration: none;
+}
+.wrapper a article {
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.08);
+  padding: 20px;
+}
+.wrapper a article:hover {
+  background-color: #f2f2f2;
+}
 
 html,
 body {

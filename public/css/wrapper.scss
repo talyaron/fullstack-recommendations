@@ -1,6 +1,16 @@
-.wrapper{
+.wrapper {
     margin: auto;
     max-width: 75ch;
-    
 
+    a {
+        text-decoration: none;
+        article {
+            border-radius: $radius;
+            box-shadow: 0px 0px 20px rgb(0 0 0 / 8%);
+            padding: $padding;
+            &:hover{
+                background-color: rgb(242, 242, 242);
+            }
+        }
+    }
 }
