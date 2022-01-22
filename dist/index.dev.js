@@ -32,6 +32,9 @@ app.get('/js-start', function (req, res) {
 app.get('/js-objects', function (req, res) {
   res.render('pages/javascript/objects');
 });
+app.get('/js-forms', function (req, res) {
+  res.render('pages/javascript/forms');
+});
 app.get('/job-problem', function (req, res) {
   res.render('pages/job/theProblem');
 });
