@@ -25,6 +25,9 @@ app.get('/html-css-flex', (req, res) => {
 app.get('/js-start', (req, res) => {
     res.render('pages/javascript/start');
 });
+app.get('/js-functions', (req, res) => {
+    res.render('pages/javascript/functions');
+});
 app.get('/js-objects', (req, res) => {
     res.render('pages/javascript/objects');
 });
