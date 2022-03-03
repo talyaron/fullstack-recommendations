@@ -38,6 +38,9 @@ app.get('/js-objects', function (req, res) {
 app.get('/js-forms', function (req, res) {
   res.render('pages/javascript/forms');
 });
+app.get('/js-dom-manipulations', function (req, res) {
+  res.render('pages/javascript/DOM-manipulation');
+});
 app.get('/job-problem', function (req, res) {
   res.render('pages/job/theProblem');
 });

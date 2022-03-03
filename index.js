@@ -36,6 +36,11 @@ app.get('/js-forms', (req, res) => {
     res.render('pages/javascript/forms');
 });
 
+app.get('/js-dom-manipulations', (req, res) => {
+    res.render('pages/javascript/DOM-manipulation');
+});
+
+
 app.get('/job-problem', (req, res) => {
     res.render('pages/job/theProblem');
 });
